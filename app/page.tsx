@@ -4,16 +4,21 @@ export default function Home() {
   return (
     <>
       {/* ヘッダー */}
-      <div className="flex space-x-3 mb-5">
-        <p>TailwindTemplates</p>
-        <p>Templates</p>
-        <p>Resources</p>
-        <p>Blog</p>
-        <p>About</p>
+      <div className="flex space-x-3 mb-5 justify-between p-6">
+        <div>
+          {/* <image src="/logo.png" width={50} height={50} /> */}
+          <p className="text-2xl">TailwindTemplates</p>
+        </div>
+        <div className="flex space-x-10">
+          <p>Templates</p>
+          <p>Resources</p>
+          <p>Blog</p>
+          <p>About</p>
+        </div>
       </div>
 
       {/* メイン */}
-      <div className="bg-gray-100 px-60 h-screen ">
+      <div className=" px-60 h-screen ">
         <h1 className="font-bold text-5xl">TailwindTemplates v2 is here</h1>
         <div>
           <p>

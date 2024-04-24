@@ -5,8 +5,8 @@ export default function Home() {
     <>
       {/* ヘッダー */}
       <div className="flex space-x-3 mb-5 justify-between p-6">
-        <div>
-          {/* <image src="/logo.png" width={50} height={50} /> */}
+        <div className="flex items-center">
+          <Image alt="hoge" src="/img/foxtail.png" width={30} height={30} />
           <p className="text-2xl">TailwindTemplates</p>
         </div>
         <div className="flex space-x-10">
@@ -18,6 +18,14 @@ export default function Home() {
       </div>
 
       {/* メイン */}
+      <div style={{ position: "relative", width: "100%", height: "300px" }}>
+        <Image
+          alt="hoge"
+          src="/img/tailwind.jpg"
+          layout="fill"
+          objectFit="cover"
+        />
+      </div>
       <div className=" px-60 h-screen ">
         <h1 className="font-bold text-5xl">TailwindTemplates v2 is here</h1>
         <div>

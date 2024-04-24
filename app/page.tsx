@@ -36,9 +36,33 @@ export default function Home() {
           </p>
         </div>
       </div>
-
       {/* フッター */}
-      <div>footer</div>
+      <div className="bg-indigo-500 py-10">
+        <div className="flex justify-between px-32">
+          <div>
+            <p className="text-lg font-bold text-white">About</p>
+            <p className="text-lg  text-white">Me</p>
+            <p className="text-lg  text-white">Contact</p>
+            <p className="text-lg  text-white">Disclaimer</p>
+          </div>
+          <div>
+            <p className="text-lg font-bold text-white">Resources</p>
+            <p className="text-lg  text-white">Amazing tools</p>
+            <p className="text-lg  text-white">Blog</p>
+          </div>
+          <div>
+            <button className="bg-pink-600 text-white rounded-lg p-2">
+              Subscribe to newsletter
+            </button>
+          </div>
+        </div>
+        <button className="bg-pink-600 text-white rounded-lg p-2">
+          Support Me on
+        </button>
+        <p className="text-lg  text-white">
+          Built with TALL stack & ❤ by J-hiz
+        </p>
+      </div>
     </>
   );
 }
